@@ -1,0 +1,8 @@
+{
+    "api": "",
+    "dependencies": "",
+    "description": "A es5 version of nodejs' buffer library",
+    "name": "BufferNodeJS",
+    "version": 1,
+    "visibility": "system"
+}
