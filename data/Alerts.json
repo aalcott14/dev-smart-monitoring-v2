@@ -1,0 +1,121 @@
+{
+    "app_id": "aed4cebd0bdedff582d6a498b7e501",
+    "collection_id": "b6d4cebd0bd499a993a1eab293cb01",
+    "items": [
+        {
+            "acknowledge_date": "2018-10-31T16:26:49.691Z",
+            "configuration_id": "64ed73fc-2e8f-4bae-8b88-9269ad473791",
+            "is_active": false,
+            "item_id": "14c6d198-e664-466c-97ec-eb8f8bd207d2",
+            "sent_date": "2018-10-31T16:26:30.303Z",
+            "target_users": "[\"testUser1@clearblade.com\"]",
+            "type_id": "461b3ffd-b458-48e8-ac84-cf6a82866951"
+        },
+        {
+            "acknowledge_date": "2018-10-31T20:01:58.327Z",
+            "configuration_id": "400afa08-fc14-48c3-b838-d4a721dcf5e3",
+            "is_active": false,
+            "item_id": "54599455-9364-431b-97b1-3089bc1ca941",
+            "sent_date": "2018-10-31T16:46:08.412Z",
+            "target_users": "[\"testUser1@clearblade.com\"]",
+            "type_id": "461b3ffd-b458-48e8-ac84-cf6a82866951"
+        },
+        {
+            "acknowledge_date": "2018-10-31T15:20:25.385Z",
+            "configuration_id": "64ed73fc-2e8f-4bae-8b88-9269ad473791",
+            "is_active": false,
+            "item_id": "8ff57048-e26d-434f-8568-557d9eb47822",
+            "sent_date": "2018-10-31T15:17:55.419Z",
+            "target_users": "[\"testUser1@clearblade.com\"]",
+            "type_id": "461b3ffd-b458-48e8-ac84-cf6a82866951"
+        },
+        {
+            "acknowledge_date": "2018-10-31T15:24:10.617Z",
+            "configuration_id": "64ed73fc-2e8f-4bae-8b88-9269ad473791",
+            "is_active": false,
+            "item_id": "aa433a0a-36d3-4b03-ba5e-4b70db7e4122",
+            "sent_date": "2018-10-31T15:20:32.493Z",
+            "target_users": "[\"testUser1@clearblade.com\"]",
+            "type_id": "461b3ffd-b458-48e8-ac84-cf6a82866951"
+        },
+        {
+            "acknowledge_date": null,
+            "configuration_id": "64ed73fc-2e8f-4bae-8b88-9269ad473791",
+            "is_active": true,
+            "item_id": "b6285994-e2e4-4e66-8844-3fe8fdcaed67",
+            "sent_date": "2018-10-31T20:02:50.48Z",
+            "target_users": "[\"testUser1@clearblade.com\"]",
+            "type_id": "461b3ffd-b458-48e8-ac84-cf6a82866951"
+        },
+        {
+            "acknowledge_date": "2018-10-31T15:17:48.623Z",
+            "configuration_id": "64ed73fc-2e8f-4bae-8b88-9269ad473791",
+            "is_active": false,
+            "item_id": "b7c0e661-c61f-49de-980f-cfb6cd067702",
+            "sent_date": "2018-10-30T20:54:25.205Z",
+            "target_users": "[\"testUser1@clearblade.com\"]",
+            "type_id": "6e2f63a9-fa59-4d8f-9533-acd8c87ab4cf"
+        },
+        {
+            "acknowledge_date": "2018-10-31T20:02:21.54Z",
+            "configuration_id": "64ed73fc-2e8f-4bae-8b88-9269ad473791",
+            "is_active": false,
+            "item_id": "e6c1c482-ac32-45c0-978e-68d4699f9ea3",
+            "sent_date": "2018-10-31T16:43:23.806Z",
+            "target_users": "[\"testUser1@clearblade.com\"]",
+            "type_id": "461b3ffd-b458-48e8-ac84-cf6a82866951"
+        },
+        {
+            "acknowledge_date": "2018-10-31T16:43:07.526Z",
+            "configuration_id": "64ed73fc-2e8f-4bae-8b88-9269ad473791",
+            "is_active": false,
+            "item_id": "f7ffda9e-011f-4d8c-9873-74aab70eae26",
+            "sent_date": "2018-10-31T16:31:29.226Z",
+            "target_users": "[\"testUser1@clearblade.com\"]",
+            "type_id": "461b3ffd-b458-48e8-ac84-cf6a82866951"
+        }
+    ],
+    "name": "Alerts",
+    "permissions": {
+        "Administrator": 15,
+        "Anonymous": 15,
+        "Authenticated": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "type_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "is_active",
+            "ColumnType": "bool",
+            "PK": false
+        },
+        {
+            "ColumnName": "configuration_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "sent_date",
+            "ColumnType": "timestamp",
+            "PK": false
+        },
+        {
+            "ColumnName": "acknowledge_date",
+            "ColumnType": "timestamp",
+            "PK": false
+        },
+        {
+            "ColumnName": "target_users",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
