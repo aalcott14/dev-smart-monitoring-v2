@@ -1,0 +1,8 @@
+{
+    "description": "Edge generates synthetic data once it comes online",
+    "frequency": 15,
+    "name": "GenerateSyntheticSensorDataOnEdge",
+    "repeats": -1,
+    "service_name": "generateSyntheticSensorData",
+    "start_time": "2018-10-30T21:25:42.134Z"
+}
