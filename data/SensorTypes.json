@@ -1,0 +1,66 @@
+{
+    "app_id": "aed4cebd0bdedff582d6a498b7e501",
+    "collection_id": "bad4cebd0bb4e1e294b99fb3c659",
+    "items": [
+        {
+            "attributes": "°F",
+            "data_type": "int",
+            "description": "measures the temperature",
+            "icon": "",
+            "is_probe": false,
+            "item_id": "2fbaefd5-4be2-41a1-a956-94275135e2b4",
+            "name": "Temperature"
+        },
+        {
+            "attributes": "mm of hg",
+            "data_type": "int",
+            "description": "Pressure Sensor",
+            "icon": "",
+            "is_probe": false,
+            "item_id": "3043fda0-085e-44b9-8a49-e3c232425648",
+            "name": "Pressure"
+        }
+    ],
+    "name": "SensorTypes",
+    "permissions": {
+        "Administrator": 15,
+        "Authenticated": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "attributes",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "description",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "data_type",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "icon",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "is_probe",
+            "ColumnType": "bool",
+            "PK": false
+        }
+    ]
+}
