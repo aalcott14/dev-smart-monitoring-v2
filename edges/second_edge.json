@@ -1,0 +1,14 @@
+{
+    "description": "Second Edge",
+    "last_seen_version": null,
+    "location": null,
+    "location_id": "a6367506-34f9-4254-a8c6-d8bdb3a0f792",
+    "mac_address": null,
+    "name": "second_edge",
+    "policy_name": null,
+    "resolver_func": null,
+    "sync_edge_tables": null,
+    "system_key": "aed4cebd0bdedff582d6a498b7e501",
+    "system_secret": "AED4CEBD0B9ADBA5BAF9CAA8FB20",
+    "token": "278ppLNe7158WTA89kt2A6"
+}
