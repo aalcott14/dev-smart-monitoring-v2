@@ -1,0 +1,44 @@
+{
+    "columns": [
+        {
+            "ColumnName": "user_id",
+            "ColumnType": "string",
+            "PK": true
+        },
+        {
+            "ColumnName": "first_name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "last_name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "phone_number",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "locations",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "photo",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "pin",
+            "ColumnType": "int",
+            "PK": false
+        }
+    ],
+    "permissions": {
+        "Administrator": 15,
+        "Anonymous": 2,
+        "Authenticated": 15
+    }
+}
