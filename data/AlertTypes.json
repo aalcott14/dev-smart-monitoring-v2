@@ -1,0 +1,39 @@
+{
+    "app_id": "aed4cebd0bdedff582d6a498b7e501",
+    "collection_id": "b6d4cebd0bb6e4f4c18a9eb3b01b",
+    "items": [
+        {
+            "description": "",
+            "icon": "",
+            "item_id": "6e2f63a9-fa59-4d8f-9533-acd8c87ab4cf",
+            "name": "High Temp"
+        }
+    ],
+    "name": "AlertTypes",
+    "permissions": {
+        "Administrator": 15,
+        "Authenticated": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "description",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "icon",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
