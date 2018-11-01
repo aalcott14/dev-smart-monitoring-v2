@@ -1,0 +1,17 @@
+{
+    "allow_certificate_auth": true,
+    "allow_key_auth": true,
+    "battery_level": 100,
+    "certificate": "",
+    "description": "",
+    "edge_id": "second_edge",
+    "enabled": true,
+    "name": "222222",
+    "reading_time": "2018-10-31T19:25:47.154Z",
+    "sensor_label": "Two",
+    "sensor_reading": "27",
+    "sensor_type_id": "3043fda0-085e-44b9-8a49-e3c232425648",
+    "signal_strength": 100,
+    "state": "",
+    "type": ""
+}
