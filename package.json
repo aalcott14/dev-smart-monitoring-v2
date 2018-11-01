@@ -1,0 +1,34 @@
+{
+    "asset_types": [
+        "Code Libraries",
+        "Code Services",
+        "Collections",
+        "Devices",
+        "Edges",
+        "Portals",
+        "Roles",
+        "Timers",
+        "Triggers",
+        "Users"
+    ],
+    "author": {
+        "email": "aalcott@clearblade.com"
+    },
+    "clouds": [],
+    "description": "",
+    "domains": [],
+    "gateways": [],
+    "image_url": "https://docs.clearblade.com/v/3/static/img/default_package.png",
+    "keywords": [
+        "clearblade",
+        "iot",
+        "platform"
+    ],
+    "license": "MIT",
+    "name": "dev-smart-monitoring-v2",
+    "private": false,
+    "prog_lang": [],
+    "protocols": [],
+    "things": [],
+    "version": "1.0.0"
+}
