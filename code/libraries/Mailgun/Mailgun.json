@@ -1,0 +1,8 @@
+{
+    "api": "",
+    "dependencies": "http",
+    "description": "Transactional Email API Service For Developers",
+    "name": "Mailgun",
+    "version": 1,
+    "visibility": "system"
+}
