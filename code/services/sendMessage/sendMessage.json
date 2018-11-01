@@ -1,0 +1,18 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 2,
+    "dependencies": "log,clearblade,TwilioConstants,TwilioSMSLib,Mailgun,MailgunConstants,QPromiseLib,BufferNodeJS",
+    "execution_timeout": 60,
+    "logging_enabled": "true",
+    "name": "sendMessage",
+    "params": [
+        "{\n  \"messageTypes\": [\n    \"email\",\"sms\"\n  ],\n  \"userEmails\": [\n    \"testUser1@clearblade.com\"\n  ],\n  \"payload\": \"hello againg\"\n}"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "sendMessage.js"
+}
