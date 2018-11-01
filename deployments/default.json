@@ -1,0 +1,107 @@
+{
+    "assets": [
+        {
+            "asset_class": "devices",
+            "asset_id": "",
+            "deployment": "default",
+            "member": "default_deployment_edge_group",
+            "sync": false
+        },
+        {
+            "asset_class": "services",
+            "asset_id": "",
+            "deployment": "default",
+            "member": "default_deployment_edge_group",
+            "sync": true
+        },
+        {
+            "asset_class": "libraries",
+            "asset_id": "",
+            "deployment": "default",
+            "member": "default_deployment_edge_group",
+            "sync": true
+        },
+        {
+            "asset_class": "AlertConfigurations",
+            "asset_id": "",
+            "deployment": "default",
+            "member": "default_deployment_edge_group",
+            "sync": true
+        },
+        {
+            "asset_class": "AlertHistory",
+            "asset_id": "",
+            "deployment": "default",
+            "member": "default_deployment_edge_group",
+            "sync": true
+        },
+        {
+            "asset_class": "Alerts",
+            "asset_id": "",
+            "deployment": "default",
+            "member": "default_deployment_edge_group",
+            "sync": true
+        },
+        {
+            "asset_class": "AlertTypes",
+            "asset_id": "",
+            "deployment": "default",
+            "member": "default_deployment_edge_group",
+            "sync": true
+        },
+        {
+            "asset_class": "Locations",
+            "asset_id": "",
+            "deployment": "default",
+            "member": "default_deployment_edge_group",
+            "sync": true
+        },
+        {
+            "asset_class": "sensors_data",
+            "asset_id": "",
+            "deployment": "default",
+            "member": "default_deployment_edge_group",
+            "sync": true
+        },
+        {
+            "asset_class": "SensorTypes",
+            "asset_id": "",
+            "deployment": "default",
+            "member": "default_deployment_edge_group",
+            "sync": true
+        },
+        {
+            "asset_class": "users",
+            "asset_id": "",
+            "deployment": "default",
+            "member": "default_deployment_edge_group",
+            "sync": true
+        },
+        {
+            "asset_class": "triggers",
+            "asset_id": "",
+            "deployment": "default",
+            "member": "default_deployment_edge_group",
+            "sync": true
+        },
+        {
+            "asset_class": "timers",
+            "asset_id": "",
+            "deployment": "default",
+            "member": "default_deployment_edge_group",
+            "sync": true
+        },
+        {
+            "asset_class": "portals",
+            "asset_id": "",
+            "deployment": "default",
+            "member": "default_deployment_edge_group",
+            "sync": true
+        }
+    ],
+    "description": "Default Deployment",
+    "edges": [
+        "___ALL_EDGES___"
+    ],
+    "name": "default"
+}
