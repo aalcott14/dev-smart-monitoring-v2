@@ -1,0 +1,9 @@
+{
+    "columns": [
+        {
+            "ColumnName": "location_id",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
