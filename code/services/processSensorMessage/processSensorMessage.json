@@ -1,0 +1,19 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 2,
+    "dependencies": "clearblade,log,checkAlertViolated,QPromiseLib",
+    "execution_timeout": 60,
+    "logging_enabled": "true",
+    "name": "processSensorMessage",
+    "params": [
+        "{\n    \"body\": {\n        \"sensor_message\": {\n            \"batteryLevel\": \"100\",\n            \"dataType\": \"TemperatureData\",\n            \"dataValue\": \"98\",\n            \"sensorID\": \"111111\",\n            \"signalStrength\": \"92\",\n            \"messageDate\": \"2018-10-25 21:10:40\"\n        },\n        \"edge_id\": \"facdbdbc0b9282e9e3af8c8dd716:first_edge\"\n    }\n}"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Anonymous": 1,
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "processSensorMessage.js"
+}
