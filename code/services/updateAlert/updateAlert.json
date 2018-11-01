@@ -1,0 +1,18 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 1,
+    "dependencies": "log,clearblade",
+    "execution_timeout": 60,
+    "logging_enabled": "true",
+    "name": "updateAlert",
+    "params": [
+        "{\n  \"item_id\": \"4ba742b4-c420-4777-9461-16b302529d1c\",\n  \"alert\": {\n    \"target_users\": [\"aalcott@clearblade.com\"]\n  }\n}"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "updateAlert.js"
+}
