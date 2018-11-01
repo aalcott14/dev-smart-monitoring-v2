@@ -1,0 +1,39 @@
+{
+    "columns": [
+        {
+            "ColumnName": "edge_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "sensor_reading",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "battery_level",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "signal_strength",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "reading_time",
+            "ColumnType": "timestamp",
+            "PK": false
+        },
+        {
+            "ColumnName": "sensor_label",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "sensor_type_id",
+            "ColumnType": "uuid",
+            "PK": false
+        }
+    ]
+}
