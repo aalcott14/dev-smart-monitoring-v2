@@ -1,0 +1,880 @@
+{
+    "config": {
+        "cols": {
+            "lg": 12,
+            "md": 10,
+            "sm": 6,
+            "xs": 4,
+            "xxs": 2
+        },
+        "currentBreakpointForFlyoutWidgets": "lg",
+        "currentBreakpointForPanes": "lg",
+        "currentBreakpointsForWidgets": {
+            "1d612eda-1f4f-4500-8779-16c8f3d1f8cb": "lg",
+            "eecd4c7e-2136-47b2-b6bc-3f6d050a6300": "sm"
+        },
+        "datasources": {
+            "31c95339-6199-4cc5-9a32-f653218948cd": {
+                "id": "31c95339-6199-4cc5-9a32-f653218948cd",
+                "name": "getSensorTypes",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "getSensorTypes",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "359b2492-67f9-442c-8f77-fb7fcf09ca80": {
+                "id": "359b2492-67f9-442c-8f77-fb7fcf09ca80",
+                "name": "getAlerts",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "getAlerts",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "4a917fa0-22f2-4b48-b2f4-caecf893f1f2": {
+                "id": "4a917fa0-22f2-4b48-b2f4-caecf893f1f2",
+                "name": "currentEmployee",
+                "settings": {},
+                "type": "LOCAL_DATASOURCE_PLUGIN"
+            },
+            "4c2186c3-4361-4bdb-9da3-9738c709c45c": {
+                "id": "4c2186c3-4361-4bdb-9da3-9738c709c45c",
+                "name": "getSensors",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "getSensors",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "58eea5ea-9456-4222-b636-6dea8d7cf7ac": {
+                "id": "58eea5ea-9456-4222-b636-6dea8d7cf7ac",
+                "name": "getAlertConfigurations",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "getAlertConfigurations",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "59d50fd3-9881-40a6-83b9-691d5d1eda94": {
+                "id": "59d50fd3-9881-40a6-83b9-691d5d1eda94",
+                "name": "sendMessage",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "sendMessage",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "945295c4-e805-4a51-a713-177438c2f0e5": {
+                "id": "945295c4-e805-4a51-a713-177438c2f0e5",
+                "name": "getEmployees",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "getEmployees",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "c5faaef0-d213-4c12-b007-2aa30538acfb": {
+                "id": "c5faaef0-d213-4c12-b007-2aa30538acfb",
+                "name": "userMessaging",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "TOPIC_NAME": "messaging/ecedc5bd0b84b49480a4cce8ff5e",
+                    "returnFullMessage": true
+                },
+                "type": "CB_MESSAGE_TOPIC"
+            },
+            "ce120c36-0502-461d-8472-f0911bf5cd81": {
+                "id": "ce120c36-0502-461d-8472-f0911bf5cd81",
+                "name": "getAlertTypes",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "getAlertTypes",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "f9ed05aa-9df3-46a0-998d-02f15bcb50cd": {
+                "id": "f9ed05aa-9df3-46a0-998d-02f15bcb50cd",
+                "name": "updateAlert",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "updateAlert",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            }
+        },
+        "externalScripts": [],
+        "flyoutWidgetLayout": {
+            "lg": [
+                {
+                    "h": 9,
+                    "i": "7a1b31bb-9c4f-40f0-8fe9-3caadc250c80",
+                    "minH": 3,
+                    "w": 2,
+                    "x": 0,
+                    "y": 0
+                }
+            ],
+            "md": [],
+            "sm": [],
+            "xs": [],
+            "xxs": []
+        },
+        "headerWidgetLayout": {
+            "lg": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 60,
+                    "x": 3,
+                    "y": 0
+                }
+            ],
+            "md": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 36,
+                    "x": 0,
+                    "y": 0
+                }
+            ],
+            "sm": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 34,
+                    "x": 0,
+                    "y": 0
+                }
+            ],
+            "xs": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 28,
+                    "x": 0,
+                    "y": 0
+                }
+            ],
+            "xxs": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 32,
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        "pages": {
+            "7e324e13-01b6-4760-8bc9-52ced3a4d786": {
+                "children": [],
+                "defaultValue": "",
+                "href": "",
+                "id": "7e324e13-01b6-4760-8bc9-52ced3a4d786",
+                "isChild": false,
+                "isParam": false,
+                "name": "AlertList",
+                "path": ""
+            },
+            "Home": {
+                "children": [],
+                "defaultValue": "",
+                "href": "",
+                "id": "Home",
+                "isChild": false,
+                "isParam": false,
+                "name": "Home",
+                "path": ""
+            }
+        },
+        "paneGridWidgetLayouts": {
+            "1d612eda-1f4f-4500-8779-16c8f3d1f8cb": {
+                "lg": [
+                    {
+                        "h": 5,
+                        "i": "60c56b6a-32f1-4290-a2fb-606fdaa81d63",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 31,
+                        "i": "f19bd1a0-d7d4-4ad0-aec7-1a88f881bc15",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 12,
+                        "x": 0,
+                        "y": 5
+                    }
+                ],
+                "md": [
+                    {
+                        "h": 4,
+                        "i": "60c56b6a-32f1-4290-a2fb-606fdaa81d63",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 10,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 36,
+                        "i": "f19bd1a0-d7d4-4ad0-aec7-1a88f881bc15",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 10,
+                        "x": 0,
+                        "y": 4
+                    }
+                ],
+                "sm": [
+                    {
+                        "h": 4,
+                        "i": "60c56b6a-32f1-4290-a2fb-606fdaa81d63",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 6,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 36,
+                        "i": "f19bd1a0-d7d4-4ad0-aec7-1a88f881bc15",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 6,
+                        "x": 0,
+                        "y": 4
+                    }
+                ],
+                "xs": [
+                    {
+                        "h": 4,
+                        "i": "60c56b6a-32f1-4290-a2fb-606fdaa81d63",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 36,
+                        "i": "f19bd1a0-d7d4-4ad0-aec7-1a88f881bc15",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 0,
+                        "y": 4
+                    }
+                ],
+                "xxs": [
+                    {
+                        "h": 4,
+                        "i": "60c56b6a-32f1-4290-a2fb-606fdaa81d63",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 36,
+                        "i": "f19bd1a0-d7d4-4ad0-aec7-1a88f881bc15",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 4
+                    }
+                ]
+            },
+            "eecd4c7e-2136-47b2-b6bc-3f6d050a6300": {
+                "lg": [],
+                "md": [],
+                "sm": [
+                    {
+                        "h": 9,
+                        "i": "5cbb2822-1efb-491d-b39b-eb0c636a292f",
+                        "minH": 3,
+                        "w": 6,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "xs": [],
+                "xxs": []
+            }
+        },
+        "paneLayouts": {
+            "7e324e13-01b6-4760-8bc9-52ced3a4d786": {
+                "lg": [
+                    {
+                        "h": 5,
+                        "i": "901b9832-4f80-4a73-bd0f-63d2b9ebb14c",
+                        "moved": false,
+                        "static": false,
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [
+                    {
+                        "h": 5,
+                        "i": "901b9832-4f80-4a73-bd0f-63d2b9ebb14c",
+                        "moved": false,
+                        "static": false,
+                        "w": 10,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "sm": [
+                    {
+                        "h": 5,
+                        "i": "901b9832-4f80-4a73-bd0f-63d2b9ebb14c",
+                        "moved": false,
+                        "static": false,
+                        "w": 6,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "xs": [
+                    {
+                        "h": 5,
+                        "i": "901b9832-4f80-4a73-bd0f-63d2b9ebb14c",
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "xxs": [
+                    {
+                        "h": 5,
+                        "i": "901b9832-4f80-4a73-bd0f-63d2b9ebb14c",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            "Home": {
+                "lg": [
+                    {
+                        "h": 5,
+                        "i": "341a54b6-9079-41ee-9966-4320b8190b40",
+                        "moved": false,
+                        "static": false,
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [
+                    {
+                        "h": 5,
+                        "i": "341a54b6-9079-41ee-9966-4320b8190b40",
+                        "moved": false,
+                        "static": false,
+                        "w": 10,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "sm": [
+                    {
+                        "h": 5,
+                        "i": "341a54b6-9079-41ee-9966-4320b8190b40",
+                        "moved": false,
+                        "static": false,
+                        "w": 6,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "xs": [
+                    {
+                        "h": 5,
+                        "i": "341a54b6-9079-41ee-9966-4320b8190b40",
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "xxs": [
+                    {
+                        "h": 5,
+                        "i": "341a54b6-9079-41ee-9966-4320b8190b40",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            }
+        },
+        "panes": {
+            "341a54b6-9079-41ee-9966-4320b8190b40": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "341a54b6-9079-41ee-9966-4320b8190b40",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "eecd4c7e-2136-47b2-b6bc-3f6d050a6300",
+                    "tabIds": [
+                        "eecd4c7e-2136-47b2-b6bc-3f6d050a6300"
+                    ],
+                    "tabTitles": {
+                        "eecd4c7e-2136-47b2-b6bc-3f6d050a6300": "Double Click"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "901b9832-4f80-4a73-bd0f-63d2b9ebb14c": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "901b9832-4f80-4a73-bd0f-63d2b9ebb14c",
+                "pageId": "7e324e13-01b6-4760-8bc9-52ced3a4d786",
+                "tabInfo": {
+                    "activeTab": "1d612eda-1f4f-4500-8779-16c8f3d1f8cb",
+                    "tabIds": [
+                        "1d612eda-1f4f-4500-8779-16c8f3d1f8cb"
+                    ],
+                    "tabTitles": {
+                        "1d612eda-1f4f-4500-8779-16c8f3d1f8cb": "Double Click"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            }
+        },
+        "savedPortalExists": true,
+        "theme": {
+            "graph": {
+                "four": "#E8E7C6",
+                "one": "#6E8592",
+                "three": "#DBA5A8",
+                "two": "#6E93A8"
+            },
+            "info": {
+                "display_name": "Standard",
+                "name": "STANDARD_THEME"
+            },
+            "items": {
+                "main": {
+                    "header": {
+                        "burgerBars": {
+                            "fontColor": "#f5f5f5",
+                            "visible": true
+                        },
+                        "dropdown": {
+                            "fontColor": "#f5f5f5",
+                            "fontFamily": "Helvetica",
+                            "fontSize": 18
+                        },
+                        "styles": {
+                            "backgroundColor": "#6e8592"
+                        }
+                    },
+                    "panes": {
+                        "flyout": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#6e8592"
+                            }
+                        },
+                        "primary": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#6e8592",
+                                "fontColor": "#000000",
+                                "fontFamily": "Helvetica"
+                            },
+                            "tabs": {
+                                "activeTabUnderlineColor": "#425864",
+                                "backgroundColor": "#9db5c2",
+                                "fontColor": "#000000"
+                            }
+                        },
+                        "secondary": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#9db5c2",
+                                "fontColor": "#000000",
+                                "fontFamily": "Helvetica"
+                            },
+                            "tabs": {
+                                "activeTabUnderlineColor": "#425864",
+                                "backgroundColor": "#6e8592",
+                                "fontColor": "#000000"
+                            }
+                        }
+                    },
+                    "portal": {
+                        "styles": {
+                            "backgroundColor": "#ffffff"
+                        }
+                    },
+                    "widgets": {
+                        "BAR_CHART_WIDGET_COMPONENT": {
+                            "barColors": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ],
+                            "brushStroke": "#6e8592",
+                            "legendColor": "#000000"
+                        },
+                        "BUTTON_WIDGET_COMPONENT": {
+                            "backgroundColor": "#f5f5f5",
+                            "backgroundHoverColor": "#c2c2c2",
+                            "borderColor": "#cccccc",
+                            "fontColor": "#000000"
+                        },
+                        "FILTERABLE_LIST_WIDGET_COMPONENT": {
+                            "activeItemBackgroundColor": "#6e8592",
+                            "activeItemFontColor": "#ffffff",
+                            "bulletColor": "#000000",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "FORM_WIDGET_COMPONENT": {
+                            "cardBackgroundColor": "#f5f5f5",
+                            "fontColor": "#000000",
+                            "sliderColor": "#6E8592",
+                            "titleColor": "#000000",
+                            "toggleColor": "#6E8592"
+                        },
+                        "GOOGLE_MAP_WIDGET_COMPONENT": {
+                            "mapTheme": ""
+                        },
+                        "GROUPING_LIST_WIDGET_COMPONENT": {
+                            "activeItemBackgroundColor": "#6e8592",
+                            "activeItemFontColor": "#ffffff",
+                            "bulletColor": "#000000",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "LINE_CHART_WIDGET_COMPONENT": {
+                            "brushStroke": "#6e8592",
+                            "legendColor": "#000000",
+                            "lineColors": [
+                                {
+                                    "stroke": "#6E8592"
+                                },
+                                {
+                                    "stroke": "#6E93A8"
+                                },
+                                {
+                                    "stroke": "#DBA5A8"
+                                },
+                                {
+                                    "stroke": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "LIST_WIDGET_COMPONENT": {
+                            "activeItemBackgroundColor": "#6e8592",
+                            "activeItemFontColor": "#000000",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "PIE_CHART_WIDGET_COMPONENT": {
+                            "cells": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "RADIAL_GAUGE_WIDGET_COMPONENT": {
+                            "backgroundColor": "#c2c2c2",
+                            "progressColor": "#6e8592"
+                        },
+                        "SPEEDOMETER_WIDGET": {
+                            "arrowColor": "#000000",
+                            "sectionColors": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "TEXT_WIDGET_COMPONENT": {
+                            "fontColor": "#000000",
+                            "fontFamily": "Helvetica",
+                            "fontSize": 18
+                        },
+                        "TOGGLE_WIDGET": {
+                            "backgroundColor": "#c2c2c2",
+                            "fontColor": "#000000",
+                            "offColor": "#ffffff",
+                            "onColor": "#6e8592"
+                        }
+                    }
+                }
+            },
+            "palette": {
+                "darkPrimary": "#c2c2c2",
+                "darkSecondary": "#425864",
+                "defaultPrimary": "#f5f5f5",
+                "defaultSecondary": "#6e8592",
+                "lightPrimary": "#ffffff",
+                "lightSecondary": "#9db5c2",
+                "primaryText": "#000000",
+                "secondaryText": "#000000"
+            }
+        },
+        "upgradesPerformed": {
+            "flyoutTitleUpgrade": true,
+            "headerBrandUpgrade": true,
+            "headerTitleUpgrade": true,
+            "widgetResizeUpgrade": true
+        },
+        "widgets": {
+            "5cbb2822-1efb-491d-b39b-eb0c636a292f": {
+                "externalScripts": [],
+                "id": "5cbb2822-1efb-491d-b39b-eb0c636a292f",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource;"
+                        },
+                        "value": {
+                            "CSS": ".underline {\n  text-decoration: underline;\n}\n",
+                            "HTML": "\u003cdiv\u003e\n  \u003cdiv class=\"messagesTitle text-center\"\u003e\n    \u003ch4\u003eMessages\u003c/h4\u003e\n  \u003c/div\u003e\n  \u003cbr\u003e\n  \u003ch4\u003eReceived\u003c/h4\u003e\n  \u003cdiv class=\"input-section\"\u003e\n    \u003cdiv id=\"MessageValue\" type=\"textarea\" class=\"form-control\" style=\"height:200px;overflow-y: scroll;\"\u003e\u003c/div\u003e\n  \u003c/div\u003e\n  \u003chr\u003e\n  \u003ch4\u003eNew\u003c/h4\u003e\n  Recipient\n  \u003cdiv class=\"input-section\"\u003e\n    \u003cselect name=\"employees\" id=\"employees\" type=\"select\" class=\"form-control\"\u003e\u003c/select\u003e\n  \u003c/div\u003e\n  Priority\n  \u003cdiv class=\"input-section\"\u003e\n    \u003cselect name=\"priority\" id=\"priority\" type=\"select\" class=\"form-control\"\u003e\n      \u003coption value=\"low\"\u003eLow\u003c/option\u003e\n      \u003coption value=\"medium\"\u003eMedium\u003c/option\u003e\n      \u003coption value=\"high\"\u003eHigh\u003c/option\u003e\n    \u003c/select\u003e\n  \u003c/div\u003e\n  Reply\n  \u003cdiv class=\"input-section\"\u003e\n    \u003cinput id=\"Message\" type=\"textarea\" class=\"form-control\"\u003e\u003c/input\u003e\n  \u003c/div\u003e\n  \u003cbr\u003e\n  \u003cbutton id=\"sendButton\" class=\"btn btn-primary btn-block\"\u003eSend\u003c/button\u003e\n\u003c/div\u003e\n",
+                            "JavaScript": "//JavaScript\n$(\"#alertPill\").click(function(){\n    CB_PORTAL.selectPage(\"/AlertList\");\n    datasources.getAlerts.sendData()\n});\ntry{\n    $('#employees').empty();\n    var employees = datasources.getEmployees.latestData().results;\n    for (var i=0;i\u003cemployees.length;i++){\n        var val = employees[i].email;\n        var text = employees[i].first_name+\" \"+employees[i].last_name;\n        $('#employees').append($('\u003coption/\u003e', { \n            value: val,\n            text : text \n        }));\n    }\n}catch(e){\n    \n};\nvar postNewMessage = function(payload){\n    var avatar = $(\"\u003cimg\u003e\u003c/img\u003e\");\n    avatar.css(\"width\",50);\n    avatar.css(\"height\",50);\n    avatar.css('border-radius', \"8px\")\n    avatar.attr(\"src\",payload.avatar)\n    var messageBox = $('\u003cdiv\u003e\u003c/div\u003e');\n    messageBox.css('padding-left',8);\n    var titleBox = $(\"\u003cdiv\u003e\u003c/div\u003e\");\n    titleBox.css(\"font-weight\",\"bold\")\n\n    var titleName = $(\"\u003cspan\u003e\"+payload.senderName+\"\u003c/span\u003e\");\n    currentTime = new Date();\n    var time = currentTime.getTime();\n    var hours = currentTime.getHours();\n    var titleTime = $(\"\u003cspan\u003e\"+currentTime.toLocaleTimeString(\"en-us\")+\"\u003c/span\u003e\");\n    titleTime.css(\"font-weight\",\"narrow\");\n    titleTime.css(\"padding-left\",12);\n    titleTime.css(\"font-size\",10)\n    titleBox.append(titleName);\n    titleBox.append(titleTime);\n    messageBox.append(titleBox);\n    var textBox = $(\"\u003cdiv\u003e\"+payload.text+\"\u003c/div\u003e\")\n    messageBox.append(textBox)\n    var parentBox = $(\"\u003cdiv\u003e\u003c/div\u003e\");\n    parentBox.css('padding',0);\n    parentBox.css('width', \"auto\")\n    parentBox.css('display',\"flex\");\n    parentBox.css(\"margin-bottom\",8)\n    parentBox.append(avatar);\n    parentBox.append(messageBox)\n    $(\"#MessageValue\").append(parentBox);\n    $('#MessageValue').scrollTop($('#MessageValue')[0].scrollHeight);\n}\ndatasources.getEmployees.latestData.subscribe(function(data){\n    \n    $('#employees').empty();\n    var employees = datasources.getEmployees.latestData().results;\n    for (var i=0;i\u003cemployees.length;i++){\n        var val = employees[i].email;\n        var text = employees[i].first_name+\" \"+employees[i].last_name;\n        $('#employees').append($('\u003coption/\u003e', { \n            value: val,\n            text : text \n        }));\n    }\n});\ndatasources.currentEmployee.latestData.subscribe(function(data){\n    var currentEmployee  = datasources.currentEmployee.latestData();\n    var newTopic = \"messaging/\"+currentEmployee.user_id;\n    console.log(newTopic);\n    datasources.userMessaging.settings({\n        ...datasources.userMessaging.settings(),\n        TOPIC_NAME: newTopic\n    });\n    setTimeout(() =\u003e {\n        datasources.userMessaging.refresh();\n    }, 1000);\n    console.log(\"gonna subscribe myself to the userMessaging datasource\")\n    datasources.userMessaging.latestData.subscribe(function(data) {\n        \n        postNewMessage(JSON.parse(data));\n        datasources.getAlerts.sendData({});\n    })\n});\n\n\n$(\"#sendButton\").click(function(){\n    var currentEmployee  = datasources.currentEmployee.latestData();\n\n    var employee=$(\"#employees\").val();\n    var priority=$(\"#priority\").val();\n    var messageTypes = [\"internal\"];\n    if (priority == \"medium\" ){\n        messageTypes.push(\"email\");\n    }else if (priority ==\"high\"){\n        messageTypes.push(\"sms\");\n        messageTypes.push(\"email\");\n    }\n\n    var message=$(\"#Message\").val();\n\n    var params={\n        messageTypes:messageTypes,\n        userEmails:[employee],\n        payload:message\n    }\n    console.log('sender', currentEmployee)\n    console.log('receiver', employee)\n    datasources.sendMessage.sendData(params).then(function(){\n        $(\"#Message\").val(\"\");\n    })\n    \n});"
+                        }
+                    }
+                },
+                "tab": "eecd4c7e-2136-47b2-b6bc-3f6d050a6300",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "60c56b6a-32f1-4290-a2fb-606fdaa81d63": {
+                "externalScripts": [],
+                "id": "60c56b6a-32f1-4290-a2fb-606fdaa81d63",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource;"
+                        },
+                        "value": {
+                            "CSS": "\n",
+                            "HTML": "\u003cdiv class=\"alertsTitle text-center\"\u003e\n  \u003ch4\u003eAlerts\u003c/h4\u003e\n\u003c/div\u003e",
+                            "JavaScript": "//JavaScript\n"
+                        }
+                    }
+                },
+                "tab": "1d612eda-1f4f-4500-8779-16c8f3d1f8cb",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "7a1b31bb-9c4f-40f0-8fe9-3caadc250c80": {
+                "externalScripts": [],
+                "id": "7a1b31bb-9c4f-40f0-8fe9-3caadc250c80",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource;"
+                        },
+                        "value": {
+                            "CSS": ".underline {\n  text-decoration: underline;\n}\n",
+                            "HTML": "\u003cdiv id=\"menu-list-container\"\u003e\n    \u003cdiv class=\"list-group\"\u003e\n        \u003c/div\u003e\n  \n\u003c/div\u003e",
+                            "JavaScript": "//JavaScript\nconst container = $('#menu-list-container');\nconst pages = [{ \"label\": \"Messages\", \"value\": \"Home\" }, \n                { \"label\": \"Alerts\", \"value\": \"AlertList\" }];\n\nconst listGroup = $('#menu-list-container .list-group');\n\nlistGroup.empty();\npages.forEach((a) =\u003e {\n    const item = $('\u003cbutton\u003e\u003c/button\u003e')\n    item.addClass('list-group-item list-group-item-action')\n    const itemDesc = $('\u003cspan\u003e\u003c/span\u003e');\n    itemDesc.html(a.label)\n    item.on('click', () =\u003e {\n        CB_PORTAL.selectPage(`/${a.value}`)\n        CB_PORTAL.toggleFlyout();\n    })\n    item.append(itemDesc)\n    listGroup.append(item);\n})\n\n"
+                        }
+                    }
+                },
+                "tab": null,
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "brand": {
+                "externalScripts": [],
+                "id": "brand",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource;"
+                        },
+                        "value": {
+                            "CSS": ".nav-pills .nav-link.active, .nav-pills .show\u003e.nav-link {\n    color: #fff;\n    background-color: #0D62A5;\n}\n.btn-primary {\n    color: #fff;\n    background-color: #0D62A5;\n    border-color: #0D62A5;\n}\ndiv#portal-pane- .card-header {\n    padding: .25rem .75rem;\n    height: 5px;\n    min-height: 30px;\n}\n.selectable-list-item:hover  {\n    background: aliceblue !important;\n    cursor: pointer;\n}\n.selectable-list-item.selected {\n   background:  #cee1f1 !important\n}\n",
+                            "HTML": "\u003cdiv\u003e\n  \u003cimg id=\"logoIcon\" src=\"https://www.clearblade.com/hubfs/ClearBlade_Logo_White.svg?t=1539873346733\" style=\"padding-left:8px;height:30px;margin-top: -8px;\"\u003e\n\u003c/div\u003e",
+                            "JavaScript": "//JavaScript\n\nconst getEmployees = () =\u003e {\n    datasources.getEmployees.sendData({})\n}\n\nconst getAlertTypes = () =\u003e {\n    return datasources.getAlertTypes.sendData({});\n}\n\nconst getAlertConfigurations = () =\u003e {\n    return datasources.getAlertConfigurations.sendData({})\n}\n\nconst getAlerts = () =\u003e {\n    return datasources.getAlerts.sendData({})\n}\n\nconst getAlertInfo = () =\u003e {\n    getAlertTypes()\n        .then(() =\u003e getAlertConfigurations()\n            .then(() =\u003e getAlerts()))\n}\n\nconst getSensorTypes = () =\u003e {\n    datasources.getSensorTypes.sendData({})\n}\n\nconst getSensors = (id) =\u003e {\n    datasources.getSensors.sendData({})\n}\n\nconst getInfo = () =\u003e {\n    try {\n        getAlertInfo();\n        getEmployees();\n        getSensorTypes();\n        getSensors();\n    } catch (e) {\n        console.error('Error setting info', e);\n    }\n}\n\nif (!window.hasFetchedInfo) {\n    window.hasFetchedInfo = true;\n    CB_PORTAL.ClearBlade.User().getUser((err, data) =\u003e {\n        if (!err) {\n            datasources.currentEmployee.sendData(data);\n            getInfo();\n        }\n    })\n}\n\n$(\"#logoIcon\").click(function () {\n    CB_PORTAL.selectPage(\"/Home\");\n})"
+                        }
+                    }
+                },
+                "tab": "HEADER",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "f19bd1a0-d7d4-4ad0-aec7-1a88f881bc15": {
+                "externalScripts": [],
+                "id": "f19bd1a0-d7d4-4ad0-aec7-1a88f881bc15",
+                "props": {
+                    "html": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "359b2492-67f9-442c-8f77-fb7fcf09ca80",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": {
+                                "CSS": ".warning{\n    color: #dc3545;\n    padding-right: .25em;\n}\n\n.alert-action-btn{\n    margin:2px;\n}\n\n.alert-item {\n    font-size: .75rem;\n}\n\n.alert-item .message {\n    font-size: 1rem;\n}\n\n.alert-buttons {\n    float: right;\n    width: 120px;\n    text-align: right;\n}\n\n.alert-buttons button {\n    /* display: block; */\n    text-align: right;\n}",
+                                "HTML": "\u003cdiv id=\"alerts\"\u003e\n\t\u003cdiv class=\"list-group\"\u003e\n\n\t\u003c/div\u003e\n\u003c/div\u003e",
+                                "JavaScript": "//JavaScript\n\n\nconst getAlertConfig = (typeId) =\u003e {\n    let alertConfig;\n    if (datasources.getAlertConfigurations.latestData()) {\n        alertConfig = datasources.getAlertConfigurations.latestData().results.DATA.find(\n            (data) =\u003e data.item_id === typeId\n        )\n    }\n    return alertConfig || {}\n}\n\nconst listGroup = $('#alerts .list-group');\nconst handleAlerts = (data) =\u003e {\n    const alerts = data.results.DATA.filter((alert) =\u003e {\n        if (!alert.snoozed_date) return true\n        return +new Date() \u003e +new Date(alert.snoozed_date)\n    })\n    listGroup.empty();\n\n    if (alerts.length === 0) {\n        listGroup.append('No active alerts')\n    } else {\n        alerts.forEach((a) =\u003e {\n            const item = $('\u003cbutton class=\"alert-item list-group-item list-group-item-action\"\u003e\u003c/button\u003e')\n            const itemDesc = $('\u003cspan\u003e\u003c/span\u003e');\n            const alertType = getAlertConfig(a.configuration_id)\n            itemDesc.html(`\n            \u003cdiv class=\"message\"\u003e\n                \u003cspan\u003e\u003ci class=\"warning fa fa-exclamation-triangle\" aria-hidden=\"true\"\u003e\u003c/i\u003e\u003c/span\u003e\n                ${alertType.message || ''}\u003c/div\u003e\n            \u003cdiv class=\"text-muted\"\u003e${AlertConfigSummary(alertType) || ''}\u003c/div\u003e\n            `)\n            const itemTime = $('\u003cspan\u003e\u003c/span\u003e');\n            itemTime.css({\n                'font-size': '.75rem'\n            })\n            let time = a.sent_date;\n            try {\n                time = new Date(time).toLocaleString()\n            } catch (e) {\n                console.warn('Unable to parse time', e);\n            }\n            const itemButtons = `\u003cdiv class=\"alert-buttons\"\u003e\n            \u003cbutton class=\"alert-action-btn btn btn-outline-success btn-sm acknowledge-alert\" data-item-id=${a.item_id}\u003eAcknowledge\u003c/button\u003e\n        \u003c/div\u003e`\n            item.append(itemButtons);\n        \n            item.append(itemDesc);\n            item.append(`\u003cdiv\u003e${time}\u003c/div\u003e`);\n            listGroup.append(item);\n        })\n    }\n}\n\nif (!window.hasSubscribedToAlerts) {\n    window.hasSubscribedToAlerts = true;\n    datasources.getAlerts.latestData.subscribe(handleAlerts);\n\n}\n\nif (datasources.getAlerts.lastUpdated) {\n    handleAlerts(datasources.getAlerts.latestData());\n}\n\nif (!window.setupAlertListeners) {\n    window.setupAlertListeners = true;\n    $('body').on('click', '.acknowledge-alert', (e) =\u003e {\n        datasources.updateAlert.sendData({\n            item_id: e.target.dataset.itemId,\n            alert: {\n                is_active: false,\n                acknowledge_date: (new Date()).toISOString()\n            }\n        }).then(() =\u003e {\n            datasources.getAlerts.sendData();\n        })\n    })\n\n    $('body').on('click', '.snooze-alert', (e) =\u003e {\n        datasources.updateAlert.sendData({\n            item_id: e.target.dataset.itemId,\n            alert: {\n                snoozed_count: Number(e.target.dataset.snoozedCount) + 1,\n                // 30 min from now\n                snoozed_date: (new Date(Date.now() + 1000 * 30 * 60)).toISOString()\n            }\n        }).then(() =\u003e {\n            datasources.getAlerts.sendData();\n        })\n    })\n}\n\nfunction AlertConfigSummary(alertConfig) {\n    const rules = tryParse(alertConfig.rules)\n    let text = rules \u0026\u0026 rules.map((rule) =\u003e RuleSummary(rule)).join(' and ')\n    if(alertConfig.timeout) {\n        text = text + ` for ${alertConfig.timeout} minutes`\n    }\n    return text\n}\n\nfunction RuleSummary(rule) {\n    if(!datasources.getSensors.latestData() || !datasources.getSensorTypes.latestData()) return ''\n    if(!rule) return ''\n    const sensor = datasources.getSensors.latestData().results.find((s) =\u003e s.name === rule.sensor_id) || {}\n    const sensorType = datasources.getSensorTypes.latestData().results.DATA.find((s) =\u003e s.item_id === sensor.sensor_type_id) || {}\n    const propertyStr = rule.property === 'battery_level' ? 'Battery' : sensorType.name\n    const wordsFromOp = {\n        'GT': 'is above',\n        'LT': 'is below',\n        'EQ': 'is equal',\n    }\n    const operatorStr = (sensorType.data_type === 'int' || rule.property === 'battery_level') ? wordsFromOp[rule.operator] : ''\n    const valueStr = (sensorType.data_type === 'int' || rule.property === 'battery_level') ? rule.value : (rule.value ? 'is open' : 'is closed')\n    const attributeStr = rule.property === 'battery_level' ? 'percent' : sensorType.attributes\n    return `\"${sensor.sensor_label || sensor.name}\" ${propertyStr \u0026\u0026 propertyStr.toLowerCase()} ${operatorStr} ${valueStr} ${attributeStr \u0026\u0026 attributeStr.toLowerCase()}`\n}\n\nfunction tryParse(str) {\n    try {\n        return JSON.parse(str)\n    } catch(e) {\n        console.warn(e, str)\n    }\n}"
+                            }
+                        }
+                    }
+                },
+                "tab": "1d612eda-1f4f-4500-8779-16c8f3d1f8cb",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "flyoutTitle": {
+                "externalScripts": [],
+                "id": "flyoutTitle",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Helvetica",
+                    "fontSize": 30,
+                    "textContent": {
+                        "dataType": "CALCULATED_DATA_TYPE",
+                        "value": "return portalTitle"
+                    }
+                },
+                "tab": "",
+                "type": "TEXT_WIDGET_COMPONENT"
+            }
+        }
+    },
+    "description": "",
+    "last_updated": "31 Oct 18 16:15 UTC",
+    "name": "mobile_alerts",
+    "system_key": "aed4cebd0bdedff582d6a498b7e501",
+    "type": "custom_v2"
+}
