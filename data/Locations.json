@@ -1,0 +1,93 @@
+{
+    "app_id": "aed4cebd0bdedff582d6a498b7e501",
+    "collection_id": "bad4cebd0beaa0ca9bc2809c9af301",
+    "items": [
+        {
+            "address": "Dharmapuri, Forest Colony, Tajganj, Agra, Uttar Pradesh 282001, India",
+            "description": "",
+            "icon": "",
+            "item_id": "11b88599-9d16-4c24-a67e-e37603f73440",
+            "lat": "27.211121",
+            "location_type": "mausoleum",
+            "long": "78.005127",
+            "name": "Taj Mahal"
+        },
+        {
+            "address": "103 E 5th St, Austin, TX 78701",
+            "description": "Phillips Building",
+            "icon": "",
+            "item_id": "415f38d3-aa04-4d90-8730-7ee13e3e0d3b",
+            "lat": "30.266754",
+            "location_type": "office",
+            "long": "-97.744627",
+            "name": "ClearBlade Office"
+        },
+        {
+            "address": "20 W 34th St, New York, NY 10001",
+            "description": "",
+            "icon": "",
+            "item_id": "a6367506-34f9-4254-a8c6-d8bdb3a0f792",
+            "lat": "40.705608",
+            "location_type": "building",
+            "long": "-74.016724",
+            "name": "Empire State Building"
+        },
+        {
+            "address": "Champ de Mars, 5 Avenue Anatole France, 75007 Paris, France",
+            "description": "",
+            "icon": "",
+            "item_id": "d5dc4b16-a7d4-40ed-88fc-ae3fb26ded01",
+            "lat": "48.858372",
+            "location_type": "tower",
+            "long": "2.294481",
+            "name": "Eiffel Tower"
+        }
+    ],
+    "name": "Locations",
+    "permissions": {
+        "Administrator": 15,
+        "Authenticated": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "location_type",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "icon",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "description",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "lat",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "long",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "address",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
