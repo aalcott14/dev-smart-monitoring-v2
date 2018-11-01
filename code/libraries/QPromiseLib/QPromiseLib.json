@@ -1,0 +1,8 @@
+{
+    "api": "",
+    "dependencies": "",
+    "description": "The 'q' JavaScript library for promises",
+    "name": "QPromiseLib",
+    "version": 1,
+    "visibility": "system"
+}
