@@ -1,0 +1,301 @@
+{
+    "app_id": "aed4cebd0bdedff582d6a498b7e501",
+    "collection_id": "bcd4cebd0b9cb492dde1a49f9340",
+    "items": [
+        {
+            "battery_level": 100,
+            "edge_id": "first_edge",
+            "item_id": "01910045-0394-467b-8eba-4d1eaa883834",
+            "reading_time": "2018-10-31T19:25:57.153Z",
+            "sensor_id": "111111",
+            "sensor_reading": "25",
+            "signal_strength": 100
+        },
+        {
+            "battery_level": 100,
+            "edge_id": "first_edge",
+            "item_id": "094a7ce6-e322-4f7d-80d1-5e0820463703",
+            "reading_time": "2018-10-31T19:27:27.152Z",
+            "sensor_id": "111111",
+            "sensor_reading": "28",
+            "signal_strength": 100
+        },
+        {
+            "battery_level": 100,
+            "edge_id": "second_edge",
+            "item_id": "1cae9bfe-5f97-4707-9b9d-2cbb166fa149",
+            "reading_time": "2018-10-31T19:25:12.153Z",
+            "sensor_id": "222222",
+            "sensor_reading": "32",
+            "signal_strength": 100
+        },
+        {
+            "battery_level": 100,
+            "edge_id": "first_edge",
+            "item_id": "1f396fdc-9adf-4e72-a22e-844ae62d5a0c",
+            "reading_time": "2018-10-31T19:27:12.158Z",
+            "sensor_id": "111111",
+            "sensor_reading": "32",
+            "signal_strength": 100
+        },
+        {
+            "battery_level": 100,
+            "edge_id": "first_edge",
+            "item_id": "1fca08f5-b4b1-4aa7-a40a-844533f7c099",
+            "reading_time": "2018-10-31T19:24:27.086Z",
+            "sensor_id": "111111",
+            "sensor_reading": "29",
+            "signal_strength": 100
+        },
+        {
+            "battery_level": 100,
+            "edge_id": "first_edge",
+            "item_id": "231ca097-6a3b-4774-be6d-099df1d42eb5",
+            "reading_time": "2018-10-31T19:24:42.081Z",
+            "sensor_id": "111111",
+            "sensor_reading": "30",
+            "signal_strength": 100
+        },
+        {
+            "battery_level": 100,
+            "edge_id": "first_edge",
+            "item_id": "23545bda-1ec5-4af1-9fc0-4fbe04a9000c",
+            "reading_time": "2018-10-31T19:25:52.152Z",
+            "sensor_id": "111111",
+            "sensor_reading": "33",
+            "signal_strength": 100
+        },
+        {
+            "battery_level": 100,
+            "edge_id": "first_edge",
+            "item_id": "264a6b2f-d3a6-4012-a225-79a1e646ae36",
+            "reading_time": "2018-10-31T19:27:42.152Z",
+            "sensor_id": "111111",
+            "sensor_reading": "31",
+            "signal_strength": 100
+        },
+        {
+            "battery_level": 100,
+            "edge_id": "second_edge",
+            "item_id": "2acdaf4e-906a-4ed2-9c26-9d0ea1d9d719",
+            "reading_time": "2018-10-30T21:29:13.263Z",
+            "sensor_id": "222222",
+            "sensor_reading": "40",
+            "signal_strength": 100
+        },
+        {
+            "battery_level": 100,
+            "edge_id": "first_edge",
+            "item_id": "3238012f-e416-4cae-9353-a3e066027e00",
+            "reading_time": "2018-10-31T19:25:17.157Z",
+            "sensor_id": "222222",
+            "sensor_reading": "30",
+            "signal_strength": 100
+        },
+        {
+            "battery_level": 100,
+            "edge_id": "second_edge",
+            "item_id": "3c4eae30-c7f0-4290-94a2-859d148f31c2",
+            "reading_time": "2018-10-31T19:25:07.153Z",
+            "sensor_id": "222222",
+            "sensor_reading": "31",
+            "signal_strength": 100
+        },
+        {
+            "battery_level": 100,
+            "edge_id": "second_edge",
+            "item_id": "4b4b3392-6ff6-4e1a-8436-f14b4dc2d040",
+            "reading_time": "2018-10-31T19:25:37.154Z",
+            "sensor_id": "222222",
+            "sensor_reading": "27",
+            "signal_strength": 100
+        },
+        {
+            "battery_level": 100,
+            "edge_id": "first_edge",
+            "item_id": "4d708d5f-0e49-4465-b9b0-665896214496",
+            "reading_time": "2018-10-31T19:27:42.152Z",
+            "sensor_id": "111111",
+            "sensor_reading": "37",
+            "signal_strength": 100
+        },
+        {
+            "battery_level": 100,
+            "edge_id": "second_edge",
+            "item_id": "6c8997bb-8782-4c6c-8a54-182a3e57cfd6",
+            "reading_time": "2018-10-31T19:25:42.162Z",
+            "sensor_id": "222222",
+            "sensor_reading": "34",
+            "signal_strength": 100
+        },
+        {
+            "battery_level": 100,
+            "edge_id": "first_edge",
+            "item_id": "7e2d02c4-cd76-400f-9158-4f582eb3f2d7",
+            "reading_time": "2018-10-31T19:27:32.155Z",
+            "sensor_id": "111111",
+            "sensor_reading": "27",
+            "signal_strength": 100
+        },
+        {
+            "battery_level": 100,
+            "edge_id": "first_edge",
+            "item_id": "7fc12031-cbcf-494f-a16d-f0d1c5a8d477",
+            "reading_time": "2018-10-31T19:27:17.161Z",
+            "sensor_id": "111111",
+            "sensor_reading": "26",
+            "signal_strength": 100
+        },
+        {
+            "battery_level": 100,
+            "edge_id": "second_edge",
+            "item_id": "837a03da-f820-43f1-b285-e0417cccfb83",
+            "reading_time": "2018-10-31T19:25:22.156Z",
+            "sensor_id": "222222",
+            "sensor_reading": "28",
+            "signal_strength": 100
+        },
+        {
+            "battery_level": 100,
+            "edge_id": "second_edge",
+            "item_id": "86c5a57e-897d-48fe-b3ae-097264e85f09",
+            "reading_time": "2018-10-31T19:25:27.173Z",
+            "sensor_id": "222222",
+            "sensor_reading": "33",
+            "signal_strength": 100
+        },
+        {
+            "battery_level": 100,
+            "edge_id": "first_edge",
+            "item_id": "989dd59f-a7e2-435f-b8c2-b0441359acfd",
+            "reading_time": "2018-10-31T19:27:37.156Z",
+            "sensor_id": "111111",
+            "sensor_reading": "25",
+            "signal_strength": 100
+        },
+        {
+            "battery_level": 100,
+            "edge_id": "first_edge",
+            "item_id": "a1c224fa-3835-4127-bc8c-6b54804af522",
+            "reading_time": "2018-10-31T19:27:22.158Z",
+            "sensor_id": "111111",
+            "sensor_reading": "34",
+            "signal_strength": 100
+        },
+        {
+            "battery_level": 100,
+            "edge_id": "first_edge",
+            "item_id": "b7dbbcee-c83e-4322-acf0-c24e876cdb77",
+            "reading_time": "2018-10-31T19:27:42.152Z",
+            "sensor_id": "111111",
+            "sensor_reading": "37",
+            "signal_strength": 100
+        },
+        {
+            "battery_level": 100,
+            "edge_id": "first_edge",
+            "item_id": "b8d5e942-79b3-4ee9-9974-16d22951e89c",
+            "reading_time": "2018-10-31T19:27:42.152Z",
+            "sensor_id": "111111",
+            "sensor_reading": "37",
+            "signal_strength": 100
+        },
+        {
+            "battery_level": 100,
+            "edge_id": "first_edge",
+            "item_id": "cb6d50bc-952a-4d81-9a6a-1717626ac1ee",
+            "reading_time": "2018-10-31T19:27:42.152Z",
+            "sensor_id": "111111",
+            "sensor_reading": "31",
+            "signal_strength": 100
+        },
+        {
+            "battery_level": 100,
+            "edge_id": "second_edge",
+            "item_id": "d1db56f0-f694-49d4-b7f1-ffa0e5b751e3",
+            "reading_time": "2018-10-31T19:25:32.153Z",
+            "sensor_id": "222222",
+            "sensor_reading": "29",
+            "signal_strength": 100
+        },
+        {
+            "battery_level": 100,
+            "edge_id": "first_edge",
+            "item_id": "e2c919e2-778e-42bf-aa77-e132a5d42b10",
+            "reading_time": "2018-10-31T19:23:57.032Z",
+            "sensor_id": "111111",
+            "sensor_reading": "29",
+            "signal_strength": 100
+        },
+        {
+            "battery_level": 100,
+            "edge_id": "second_edge",
+            "item_id": "e525f027-8a2c-46e2-ae4c-e1fc56c43155",
+            "reading_time": "2018-10-31T19:24:57.044Z",
+            "sensor_id": "222222",
+            "sensor_reading": "34",
+            "signal_strength": 100
+        },
+        {
+            "battery_level": 100,
+            "edge_id": "first_edge",
+            "item_id": "e771bd5f-4b15-4919-a9d2-eb284b841349",
+            "reading_time": "2018-10-31T19:24:12.077Z",
+            "sensor_id": "111111",
+            "sensor_reading": "29",
+            "signal_strength": 100
+        },
+        {
+            "battery_level": 100,
+            "edge_id": "second_edge",
+            "item_id": "f2a3b61f-fb51-405f-aba7-4e6023240a6a",
+            "reading_time": "2018-10-31T19:25:47.154Z",
+            "sensor_id": "222222",
+            "sensor_reading": "27",
+            "signal_strength": 100
+        }
+    ],
+    "name": "sensors_data",
+    "permissions": {
+        "Administrator": 15,
+        "Anonymous": 1,
+        "Authenticated": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "sensor_reading",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "battery_level",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "signal_strength",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "reading_time",
+            "ColumnType": "timestamp",
+            "PK": false
+        },
+        {
+            "ColumnName": "edge_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "sensor_id",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
